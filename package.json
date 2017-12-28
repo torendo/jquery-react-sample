@@ -1,0 +1,36 @@
+{
+  "name": "jquery-react-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"gulp && \"\"./node_modules/.bin/http-server\"\" ./dist -p 3000 -c-1\" \"gulp watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torendo/jquery-react-sample.git"
+  },
+  "author": "Stanislav Proshkin (https://github.com/torendo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torendo/jquery-react-sample/issues"
+  },
+  "homepage": "https://github.com/torendo/jquery-react-sample#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "concurrently": "^3.5.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.2",
+    "http-server": "^0.10.0",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
